@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants"
+    android:windowSoftInputMode="adjustPan">
+	
+	<ScrollView android:id="@+id/scroll_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:fadingEdge="none"
+	    android:fillViewport="true"
+	    android:padding="0dp"
+	    android:layout_margin="0dp"
+	    android:isScrollContainer="false">
+	    
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+    
+	    	<LinearLayout
+	            android:id="@+id/gamertag_bar"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		    	android:background="@layout/rounded_corners"
+		    	android:padding="5dp"
+		    	android:orientation="horizontal">
+		    	
+	    	    <ImageView
+	    	        android:id="@+id/menu"
+	    	        android:layout_width="0dp"
+	    	        android:layout_height="0dp"
+	    	        android:layout_weight="1"
+	    	        android:paddingRight="10dp"
+	    	        android:src="@drawable/menu" />
+				
+				 <EditText
+				     android:id="@+id/gamertag"
+				     android:layout_width="fill_parent"
+				     android:layout_height="wrap_content"
+				     android:background="@null"
+				     android:inputType="textPersonName|textNoSuggestions"
+				     android:imeOptions="actionDone"
+				     android:hint="@string/gamertag_input"
+				     android:textColorHint="#000000"
+				     android:focusable="true"
+				     android:layout_weight="2" />
+	
+			</LinearLayout>
+			
+	    	<LinearLayout
+			    android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:gravity="center"
+		        android:layout_below="@id/gamertag_bar">
+	    	
+			    <LinearLayout
+			        android:id="@+id/content_pane"
+				    android:layout_width="fill_parent"
+			        android:layout_height="0dp"
+			        android:layout_weight="1"
+			        android:orientation="vertical" />
+				
+			    <!-- ads -->
+			    <!--<LinearLayout
+			        android:layout_width="wrap_content"
+			        android:layout_height="fill_parent"
+			        android:minHeight="100dp"
+			        android:layout_alignParentBottom="true"
+			        android:layout_below="@id/content_pane"
+			        android:gravity="bottom">
+			        
+			        <com.google.ads.AdView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						ads:adUnitId="92b1ac7228264e4a"
+						ads:adSize="BANNER"
+						ads:testDevices="TEST_EMULATOR"
+						ads:loadAdOnCreate="true"/>
+			        <!- - 357BA9E3DDDB4B29 - ->
+				
+				</LinearLayout>-->
+				
+			</LinearLayout>
+			
+		</RelativeLayout>
+		
+	</ScrollView>
+	
+</LinearLayout>

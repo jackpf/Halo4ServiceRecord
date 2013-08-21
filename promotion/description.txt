@@ -1,0 +1,22 @@
+Want to check your Halo 4 stats on the go or show off your service record to your friends? Want to keep up to date with your progress and rank? Well here you go.
+
+Halo 4 Service Record is a lightweight app that will do just what it says on the tin.
+
+It not only displays all of your stats, but your favourite weapon, and spartan character as well.
+
+--FEATURES--
+Your spartan character
+Kills, deaths, K/D ratio, wins, losses, W/L ratio, SP earned
+Next rank progress bar
+Medals
+Specialisations completed
+
+More to come soon.
+
+How to use:
+
+Tap on the text box at the top and enter the gamertag you wish to search for. Then press the "done" key on the keyboard. Voila! Your service record should be displayed.
+
+If you enjoy this app, please click on a few ads. Ad free version coming soon.
+
+Please note that this is my first app and still being tested/having features added, so please report any bugs, crashes or suggestions to jack.philip.farrelly@gmail.com. Enjoy!

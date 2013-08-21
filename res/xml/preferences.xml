@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference
+        android:key="pref_spartanQuality"
+        android:title="@string/pref_spartanQuality"
+        android:dialogTitle="@string/pref_spartanQuality"
+        android:entries="@array/pref_spartanQuality_entries"
+        android:entryValues="@array/pref_spartanQuality_values"
+        android:defaultValue="@string/pref_spartanQuality_default" />
+	
+	<EditTextPreference
+	    android:key="pref_email"
+	    android:title="@string/pref_email"
+	    android:inputType="text" />
+	<EditTextPreference
+	    android:key="pref_password"
+	    android:title="@string/pref_password"
+	    android:inputType="textPassword" />
+</PreferenceScreen>

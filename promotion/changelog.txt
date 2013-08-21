@@ -1,0 +1,43 @@
+Version 1.3.0
+    Added CSR stats
+    Can now view spartan image in gallery
+    Added option to change spartan image quality (to save on bandwidth)
+    Added descriptions on click to medals and specialisations
+    Various improvements
+
+Version 1.2.3
+    Fixed layout bug
+
+Version 1.2.2
+    Fixed error causing force quit
+    Added View challenges in options
+
+Version 1.2.1
+    Fixed emblem error causing for quit
+
+Version 1.2.0
+    Code optimisation
+    Animated rank progress bar
+    Collapsible sections
+    Added custom wargames stats
+    Added time played statistic
+    Displays emblem
+    Removed support for Android 2.2 due to problems with SSL certificate authentication (will be fixed soon)
+    
+Version 1.1.0
+    Layout improvements
+    New weapon, player and wargames stats
+    Higher quality images
+    App rating prompt
+    Fixed rank progress bar bug
+
+Version 1.0.2
+    Fixed loading bug
+
+Version 1.0.1
+    Fixed crash when choosing settings
+    Fixed crash if gamertag contained a space
+    Fixed crash when player is rank 130
+
+Version 1.0.0
+    Initial release

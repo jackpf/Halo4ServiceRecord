@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Halo 4 Service Record</string>
+    
+    <string name="gamertag_preference">gamertag</string>
+    
+    <string name="gamertag_input">Please enter your gamertag&#8230;</string>
+    <string name="loading_title">Please wait</string>
+    <string name="loading_text">Retrieving service record&#8230;</string>
+    <string name="section_player">Player Stats</string>
+    <string name="section_weapons">Weapon Stats</string>
+    <string name="section_wargames">War Games Stats</string>
+    <string name="section_wargames_custom">War Games - Custom Stats</string>
+    <string name="section_csr">Competetive Skill Rank</string>
+    <string name="section_halo3">Halo 3 Overview</string>
+    <string name="title_activity_servicerecord">Service Record</string>
+    <string name="favourite_weapon_text">Favourite weapon</string>
+    <string name="top_medals_text">Top 5 medals</string>
+    <string name="specialisations_completed_text">Specialisations completed</string>
+    <string name="rank_progress">Rank progress</string>
+    <string name="xboxlive_profile_url">&lt;a href="https://live.xbox.com/en-GB/Profile?GamerTag=%s">Xbox Live Profile&lt;/a></string>
+    
+    <string name="error_1">A network error has occurred</string>
+    <string name="error_2">An error occurred parsing service record</string>
+    <string name="error_3">Unable to retrieve requested service record</string>
+    <string name="error_challenges">Unable to retrieve challenges</string>
+    
+    <string name="rate_prompt_text">If you enjoy using this app, please take a moment to rate it. Thanks for your support!</string>
+    <string name="rate_b1">Rate</string>
+    <string name="rate_b2">Remind me later</string>
+    <string name="rate_b3">No thanks</string>
+    
+    <string name="menu_about">About</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_challenges">View Challenges</string>
+    <string name="menu_donate">Donate</string>
+    <string name="about">Halo 4 Service Record\nAuthor: jackpf\nAll images belong to their respective owners</string>
+    
+    <string name="pref_spartanQuality">Spartan Quality</string>
+    <string-array name="pref_spartanQuality_entries">
+	    <item>Low</item>
+	    <item>Medium</item>
+	    <item>High</item>
+	</string-array>
+	<string-array name="pref_spartanQuality_values">
+	    <item>small</item>
+	    <item>medium</item>
+	    <item>large</item>
+	</string-array>
+	<string name="pref_spartanQuality_default">large</string>
+	
+    <string name="pref_email">Windows Live Email Address</string>
+    <string name="pref_password">Windows Live Password</string>
+    
+    <string name="player_stats_output" formatted="false">%-10s %12s\n%-10s %12s\n%-10s %12s\n%-10s %12s</string>
+    <string name="weapons_stats_output" formatted="false">%-16s %12s\n%-16s %12s\n%-16s %12s</string>
+    <string name="wargames_stats_output" formatted="false">%-17s %11s\n%-17s %11s\n%-17s %11s\n%-17s %11s\n%-17s %11s\n%-17s %11s\n%-17s %11s\n%-17s %11s\n%-17s %11s\n%-17s %11s\n%-17s %11s</string>
+    <string name="csr_stats_output" formatted="false">%-26s %2s\n</string>
+    <string name="recentgames_stats_output" formatted="false">%s %s\n%-10s\n%-10s\n%-10s %4s\n%-10s %4s\n%-10s %4s\n</string>
+</resources>

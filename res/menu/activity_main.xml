@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <item
+        android:id="@+id/menu_refresh"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/menu_refresh" android:menuCategory="container"/>
+    
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/menu_search" android:menuCategory="container"/>
+    
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_about" android:menuCategory="container"/>
+    
+    <item
+        android:id="@+id/menu_donate"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_donate" android:menuCategory="container"/>
+    
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings" android:menuCategory="container"/>
+    
+    <item
+        android:id="@+id/menu_challenges"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/menu_challenges" android:menuCategory="container"/>
+
+</menu>
